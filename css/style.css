@@ -1,0 +1,220 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'playfair Display', serif;
+	color: #626262;
+}
+/*header*/
+header{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.wrapper{
+	overflow: hidden;
+	width: 85%;
+	margin: 0 auto;
+}
+.logo{
+	width: 15%;
+	float: left;
+	margin-top: 14px;
+}
+.logo img{
+	width: 100%;
+}
+.manu{
+	width: 65%;
+	float: right;
+}
+.manu ul{
+	float: right;
+}
+.manu ul li{
+	list-style: none; 
+	float: left;
+}
+.manu ul li a{
+	font-size: 16px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 0 58px;
+	padding-top: 6px;
+	transition-duration: 0.4s;
+}
+.manu ul li:last-child a{
+	padding-right: 0;
+}
+.manu ul li a:hover{
+	color: #000000;
+}
+/*header*/
+/*banner*/
+.b-img img{
+	width: 100%;
+}
+/*banner*/
+/*about*/
+.about{}
+.wrapper-2{
+	overflow: hidden;
+	width: 75%;
+	margin: 0 auto;
+}
+.about-content{
+    padding: 60px 0;
+}
+.mini-p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #96948e;
+	/* margin-top: 60px; */
+	text-transform: uppercase;
+}
+.hed{
+	font-size: 30px;
+	font-weight: 400;
+}
+.text{
+	line-height: 25px;
+	margin-bottom: 45px;
+}
+/*about*/
+/*blog*/
+.blog{}
+.blog-content{
+    width: 45%;
+    float: left;
+}
+.blog-content:nth-child(even){
+	margin-left: 6%;
+}
+.blog-content img{
+    width: 100%;
+}
+/*blog*/
+/*singup*/
+.sign-up{
+    padding: 90px 0;
+    background-color: #f0f0f0;
+}
+.wrapper-3{
+    width: 60%;
+    margin: 0 auto;
+}
+.s-content{
+    text-align: center;
+}
+.s-content h2{
+    font-family: 'playfair Display', serif;
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 90px;
+}
+.s-form{
+    width: 350px;
+    margin-right: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    position: relative;
+}
+.s-form input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 300px;
+    font-size: 15px;
+    padding: 10px 40px 10px 10px;
+    outline: none;
+}
+.s-form button{
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    cursor: pointer;
+}
+/*singup*/
+/*button*/
+.load-button{
+	padding: 130px 0 160px;
+}
+.more{
+    text-align: center;
+}
+.more button{
+	font-family: 'playfair Display', serif;
+	font-size: 18px;
+    width: 165px;
+    height: 60px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    background-color: transparent;
+   	cursor: pointer;
+   	transition-duration: .4s;
+}
+.more button:hover{
+	background-color: #F0F0F0;
+}
+/*button*/
+/*blog2*/
+.wrapper-4{
+	overflow: hidden;
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+/*blog2*/
+/*footer*/
+footer{
+    background-color: #f0f0f0;
+    padding: 30px 0;
+}
+.privacy{
+    width: 30%;
+    float: left;
+}
+.privacy ul, .f-icnon ul{
+    margin: 0;
+    padding: 0;
+}
+.privacy ul li{
+    float: left;
+    list-style: none;
+}
+.privacy ul li a{
+	font-size: 16px;
+	color: #626262;
+	text-decoration: none;
+	display: block;
+	padding: 5px 10px;
+	transition-duration: 0.4s;
+}
+.f-icon{
+    width: 20%;
+    float: right;
+}
+.f-icon ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.f-icon ul li{
+	float: left;
+	list-style: none;
+}
+.f-icon ul li span{
+	
+padding: 0 10px;
+}
+.f-icon ul li a{
+    padding: 0 8px;
+}
+/*footer*/
